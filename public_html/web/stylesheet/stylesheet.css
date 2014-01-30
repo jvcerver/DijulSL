@@ -13,19 +13,39 @@ and open the template in the editor.
 }
 
 #cabecera{
-    
+    width: 1000px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 #menu{
-    
+    background-color: blue;
+    //height: 40px;
+    width: 1000px;
+    overflow: auto;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 #contenido{
-    
+    background-color: brown;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 1000px;
+    //overflow-y: auto;
+    padding: auto;
+    min-height: 600px;
 }
 
 #social{
-    
+    background-color: yellow;
+    float: right;
+    width: 34%;
+    overflow-y: auto;    
+    margin: 2%;
+    margin-left: 1%;    
 }
 
 .fb-facepile{
@@ -33,9 +53,17 @@ and open the template in the editor.
 }
 
 #principal{
-    
+    background-color: green;
+    float: left;
+    width: 60%;
+    height: 100px;    
+    margin: 2%; 
+    margin-right: 1%;
 }
 
 #pie{
-    
+    background-color: black;
+    width: 1000px;
+    height: 30px;
+    margin: auto;
 }
