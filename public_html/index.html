@@ -23,58 +23,63 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="web/stylesheet/stylesheet.css" media="only screen and (max-width: 768px)"/>
     </head>
     <body>
+
+        <!--FACEBOOK SDK-->
         <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : "100007618387878",
-          status     : true,
-          xfbml      : true
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/es_LA/all.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
+        <script>
+            window.fbAsyncInit = function() {
+            FB.init({
+            appId: '247944158716617',
+                    status: true,
+                    xfbml: true
+            });
+            };
+                    //codigo que tiene que funcionar tras la carga del SDK
+                            (function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                                    if (d.getElementById(id)) {
+                            return;
+                            }
+                            js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = "//connect.facebook.net/en_US/all.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));
+                            
+                            (function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                                    if (d.getElementById(id)) return;
+                                    js = d.createElement(s); js.id = id;
+                                    js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=247944158716617";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
     </script>
-        <!--<script>(function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id))
-                    return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-            </script>-->
-        <!--lineas reservadas diegocg-->
+    <!--FACEBOOK SDK END-->
 
-        <!--fin lineas reservadas diegocg-->
-        <!--lineas reservadas diegoh-->
+    <!--lineas reservadas diegocg-->
 
-        <!--fin lineas reservadas diegoh-->
+    <!--fin lineas reservadas diegocg-->
+    <!--lineas reservadas diegoh-->
 
-        <a href="index.html"><div id="cabecera"></div></a>
-        <div id="menu">
-            <ul>
-                <li>Principal</li>
-                <li>Trabajos</li>
-                <li>Conócenos</li>
-                <li>Contacto</li>
-            </ul>
+    <!--fin lineas reservadas diegoh-->
+
+    <a href="index.html"><div id="cabecera"></div></a>
+    <div id="menu">
+        <!--<ul>
+            <li>Principal</li>
+            <li>Trabajos</li>
+            <li>Conócenos</li>
+            <li>Contacto</li>
+        </ul>-->
+    </div>
+    <div id="contenido">
+        <div id="social">
+            <div class="fb-like-box" data-href="https://www.facebook.com/pages/Dijul-SL/277163225768187?fref=ts" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
         </div>
-        <div id="contenido">
-            <div id="social">
-              
-            </div>
-            <div id="principal"></div>
-        </div>
-        <div id="pie">
-            <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
-        </div>
-    </body>
+        <div id="principal"></div>
+    </div>
+    <div id="pie">
+
+    </div>
+</body>
 </html>
