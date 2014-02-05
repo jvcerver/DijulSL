@@ -215,7 +215,7 @@ pip-log.txt
 .mr.developer.cfg
 
 # NetBeans specific #
-nbproject/private/*.xml
+nbproject/private/private.xml
 build/
 nbbuild/
 dist/
