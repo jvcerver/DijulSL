@@ -29,6 +29,12 @@ and open the template in the editor.
     margin-bottom: 20px;
 }
 
+li{    
+    padding: 9%;
+    display: inline;
+    margin: auto;
+}
+
 #contenido{
     background-color: brown;
     margin: auto;
@@ -49,7 +55,11 @@ and open the template in the editor.
 }
 
 .fb-facepile{
-    
+    background-color: tomato;
+    overflow: auto;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
 }
 
 #principal{
