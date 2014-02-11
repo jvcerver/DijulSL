@@ -3,6 +3,11 @@
     Author     : josevicente
     Author      :diegogarcia
 */
+body {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
 #fb-root{
     
 }
@@ -30,16 +35,15 @@
 #social{
     background-color: black;
     float: right;
-    width: 34%;
-    overflow-y: auto;    
-    margin-top: 28%;
-    margin-right: 2%;
-   
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -292px;
+    top: 94%;
+    left: 97%;
 }
 
 li{    
     padding: 9%;
-    //display: inline;
     margin: auto;
 }
 
