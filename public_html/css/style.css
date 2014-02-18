@@ -49,15 +49,16 @@ img.mb_bgimage{
 	left:0px;
 	z-index:11;
 }
+
 .mb_menu a{
 	background-color:#000;
-	margin-bottom:2px;
+	margin-bottom: 10px;
 	opacity:0.9;
 	display:block;
-	width:98px;
-	height:98px;
+	width:120px;
+	height:40px;
 	color:#fff;
-	line-height:98px;
+	line-height:40px;
 	text-align:center;
 	text-transform:uppercase;
 	outline:none;
@@ -101,7 +102,6 @@ span.mb_close:hover{
 	font-family:"Astloch";
 	text-shadow:0px 0px 1px #fff;
 	font-size:42px;
-	background:transparent url(../img/line.png) repeat-x bottom left;
 	padding:0px 0px 5px 0px;
 	margin-bottom:10px;
 }
@@ -113,6 +113,7 @@ span.mb_close:hover{
 .mb_content_inner p{
 	padding:5px 0px;
 }
+
 ul.mb_imagelist li{
 	float:left;
 	margin:2px;
@@ -191,4 +192,27 @@ button:hover{
 }
 .mb_footer a.mb_left{
 	float:left;
+}
+.mb_content_inner ul a{
+    background-color:#000;
+    margin-bottom: 0px;
+    opacity: 0.9;
+    display:inline-block;
+    color:#fff;
+    line-height:40px;
+    text-align:center;
+    text-transform:uppercase;
+    outline:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    margin-right: 6px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition:all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -transition: all 0.2s ease-in;
+}
+.mb_content_inner a:hover{
+    color:#000;
+    background-color:#fff;
 }

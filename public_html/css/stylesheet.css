@@ -3,10 +3,6 @@
     Author     : josevicente
     Author      :diegogarcia
 */
-body {
-    padding-top: 100px;
-    padding-bottom: 40px;
-}
 
 #fb-root{
     
@@ -18,8 +14,7 @@ body {
     top: 0%;
     height: 100%;
     width: 100%;
-    opacity: 0.6;
-    filter:alpha(opacity=40);
+    opacity: 0.9;
 }
 
 
@@ -42,8 +37,7 @@ body {
     left: 97%;
 }
 
-li{    
-    padding: 9%;
+li{
     margin: auto;
 }
 
